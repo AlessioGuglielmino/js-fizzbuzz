@@ -1,0 +1,16 @@
+body {
+  background-color: #083b4c;
+}
+
+#title {
+  color: white;
+}
+
+.box-custom {
+  border: 1px solid black;
+  width: calc(100% / 7);
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
