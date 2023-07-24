@@ -6,11 +6,22 @@ body {
   color: white;
 }
 
-.box-custom {
-  border: 1px solid black;
-  width: calc(100% / 7);
-  height: 100px;
+.box {
   display: flex;
   justify-content: center;
   align-items: center;
+  aspect-ratio: 1;
+
+  font-size: 1.8rem;
+  font-weight: 600;
+  background-color: #1389b2;
+}
+.box.fizz {
+  background-color: #0cd6a1;
+}
+.box.buzz {
+  background-color: #ffd166;
+}
+.box.fizzbuzz {
+  background-color: #f0466f;
 }

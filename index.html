@@ -12,7 +12,7 @@
       crossorigin="anonymous"
     />
     <!-- MAIN JAVA -->
-    <script src="./MAIN.JS"></script>
+    <script src="./MAIN.JS" defer></script>
     <!-- FOGLIO DI STILE  -->
     <link rel="stylesheet" href="./style.css" />
   </head>
@@ -25,7 +25,15 @@
     </header>
     <!-- MAIN PART -->
     <main>
-      <div class="container"></div>
+      <!-- CONTAINER -->
+      <div class="container">
+        <!-- ROW -->
+
+        <div
+          id="fizzbuzz-row"
+          class="row row-cols-1 row-cols-sm-3 row-cols-md-5 row-cols-lg-6 g-4"
+        ></div>
+      </div>
     </main>
   </body>
 </html>
